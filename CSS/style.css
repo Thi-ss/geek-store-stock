@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+#header-section p {
+    font-size: larger;
+
+}
+
+#header-section {
+    background-color: rgb(133, 255, 108);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(9, 255, 0);
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(59, 14, 88);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#logo {
+    background-color: rgb(71, 204, 38);
+    border-radius: 50px;
+    width: 35%;
+}
+
+#section-logo {
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    color: aliceblue;
+}
+
+#intro-main {
+    padding: 10px;
+    background-color: rgb(58, 13, 100);
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#intro-main p {
+    font-size: large;
+}
+
+#img-intro {
+    border-radius: 10px;
+    width: 30%;
+}
+
+#sec-img-intro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#galeria {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.card-imagens {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards {
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(140, 255, 94);
+    border-radius: 10px;
+}
+
+.cards h3 {
+    color: rgb(23, 4, 41);
+}
+
+#tabela {
+    background-color: rgb(58, 13, 100);
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(98, 66, 119);
+    width: 50%;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+thead {
+    background-color: rgb(47, 190, 71);
+}
+
+tbody {
+    background-color: rgb(17, 114, 41);
+}
+
+footer {
+    background-color: rgb(133, 255, 108);
+    padding: 20px;
+}
+
+footer p {
+    font-size: larger;
+    color: rgb(19, 2, 32);
+}

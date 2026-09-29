@@ -1,0 +1,1 @@
+O sistema do Júnior tem como objetivo desenvolver um sistema que funcione como uma loja virtual.
